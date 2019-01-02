@@ -147,9 +147,9 @@ export default class ImageWrap {
 	/**
 	 * Get the sum of the absolute value of the channel differences
 	 * between a pixel and a color. Alpha is ignored.
-	 * @param {*} x 
-	 * @param {*} y 
-	 * @param {*} color 
+	 * @param {Number} x 
+	 * @param {Number} y 
+	 * @param {Number} color 
 	 */
 	absDiff( x, y, color ) {
 
@@ -164,9 +164,9 @@ export default class ImageWrap {
 	 * Get the sum of the channel differences between a pixel and a color.
 	 * The color channels are subtracted from the image pixel channels.
 	 * Alpha is ignored.
-	 * @param {*} x 
-	 * @param {*} y 
-	 * @param {*} color 
+	 * @param {Number} x 
+	 * @param {Number} y 
+	 * @param {Number} color 
 	 */
 	diff( x, y, color ) {
 
